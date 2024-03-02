@@ -1,2 +1,2 @@
-# SYSU-Artificial-Intelligence
-SYSU人工智能作业
+# SYSU_Artificial-Intelligence
+中山大学计算机学院人工智能课程作业及项目

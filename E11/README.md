@@ -1,5 +1,13 @@
 # DQN Lab #
 
+## Get Started ##
+依赖库版本  
+> torch==2.3.0  
+> numpy==1.26.4  
+> pygame==2.5.3  
+> gym==0.23.0  
+> matplotlib==3.9.0  
+
 ## code ##
 - original部分请参考E11.pdf
 - extension部分：

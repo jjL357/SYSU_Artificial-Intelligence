@@ -22,14 +22,14 @@ $ pip install torchtext==0.6.0
 
 ### Run Code ###
 - **依赖库**  
-> torch==2.0.1
-> numpy==1.26.4
-> matplotlib==3.9.0
-> ntlk==3.8.1 (数据预处理)
-> pandas==2.2.2 (数据预处理)
-> scikit-learn==1.5.0 (/lstm)
-> tqdm==4.66.4 (/lstm)
-> torchtext==0.6.0 (/lstm)
+> torch==2.0.1  
+> numpy==1.26.4  
+> matplotlib==3.9.0  
+> ntlk==3.8.1 (数据预处理)  
+> pandas==2.2.2 (数据预处理)  
+> scikit-learn==1.5.0 (/lstm)  
+> tqdm==4.66.4 (/lstm)  
+> torchtext==0.6.0 (/lstm)  
 
 - **original**
 运行可能需要修改部分文件夹路径  

@@ -38,3 +38,9 @@
 渐递减， 收敛于一个较好的 policy， 在`Pri_Eps_NoiDQN.py`中实现  
 
 5. Noise Net: 在每个Episode开始的时候，向网络中添加一个噪声，其原理与采用Epsilon类似，在`Pri_Eps_NoiDQN.py`中实现
+
+- 以下部分来自TA讲解
+DQN模型稳健的关键在于reward的设计，原来只要没死就`reward=1`不符合实际情况，设置需要更符合实际。
+如TA的代码设置`new_reward = (0.01 - abs(theta))`，其中theta为杆的偏移角，200轮即可平均超过475分，并且相当稳健  
+腾讯一篇[RL玩王者荣耀的论文](https://ojs.aaai.org/index.php/AAAI/article/view/6144)就展示了reward设计的重要性  
+实现时需要注意：较优的状态的reward要是正的，否则模型将趋向于迅速终止游戏  
